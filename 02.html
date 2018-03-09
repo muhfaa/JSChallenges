@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to join three arrays.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    const first = ['Behind', 'every', 'great', 'man']
+	const second = ['is', 'a', 'woman']
+	const third = ['rolling', 'her', 'eyes']
+    const arr = first.concat(second,third); 
+    document.getElementById("demo").innerHTML = arr;
+}
+</script>
+
+</body>
+</html>
